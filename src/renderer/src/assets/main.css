@@ -1,0 +1,41 @@
+@import './base.css';
+
+.nav-item a.active {
+  background-color: #c7c7c7;
+}
+.nav-item{
+  transition: all .5s ease;
+}
+.nav-item:hover{
+  background-color: #e2e2e2;
+  transform: scale(1.5);
+}
+
+.container-player{
+  background-color: var(--color-primario);
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.titulo-reproduccion{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/*Social*/
+
+.container-social{
+  margin-left: 10px;
+  width: 70%;
+}
+
+.sidebar {
+  width: 100px; /* Fija el ancho del Sidebar */
+}
+
+.content {
+  margin-left: 100px; /* Deja espacio para el Sidebar */
+  flex-grow: 1;
+}
+
